@@ -1,0 +1,69 @@
+<main>
+
+    <div class="pelicula-principal">
+      <div class="contenedor">
+        <h3 class="titulo">ANT-MAN avispa</h3>
+        <p class="descripcion">
+          La pareja de superhéroes Scott Lang y Hope van Dyne regresa para continuar sus aventuras como
+          Ant-Man y la Avispa.
+          Los dos, junto a los padres de Hope, Hank Pym y Janet van Dyne y la hija de Scott, Cassie Lang, se
+          dedican a explorar
+          el Mundo Cuántico, interactuando con nuevas y extrañas criaturas y embarcándose en una aventura que
+          les llevará más allá
+          de los límites de lo que creían posible.
+        </p>
+        <button role="button" class="boton">Reproducir</button>
+        <button role="button" class="boton">Más información</button>
+      </div>
+    </div>
+  
+    <section>
+      <div>
+        <div class="alert alert-light text-center" role="alert" style="
+                      font-family: 'Homer Simpson UI';
+                      font-size: 65px;">
+          Películas populares
+        </div>
+      </div>
+  
+      <div>
+        <div class="col-12 text-center">
+
+          <a routerLink="/pelicula/{{ movie.slug }}" *ngFor="let movie of movies">
+            <img src="{{ movie.poster }}" alt="" class="img-fluid mb-2 imgage">
+          </a>
+
+        </div>
+      </div>
+  
+      <div>
+        <div class="alert alert-light text-center mt-4" role="alert" style="
+                      font-family: 'Homer Simpson UI';
+                      font-size: 65px;">
+          Próximos estrenos
+        </div>
+      </div>
+  
+      <div>
+        <div class="col-12 text-center">
+
+          <a routerLink="/estreno/{{ premiere.slug }}" *ngFor="let premiere of premieres">
+            <img src="{{ premiere.poster }}" alt="" class="img-fluid mb-2 imgage">
+          </a>
+
+        </div>
+      </div>
+  
+    </section>
+  
+    <div class="slider-frame">
+      <div class="contenedor"></div>
+      <ul>
+        <li><img src="../assets/img/super_mario.jpg" alt="" class="imgage"></li>
+        <li><img src="../assets/img/shazam.jpg" alt="" class="imgage"></li>
+        <li><img src="../assets/img/cocaine_bear.jpg" alt="" class="imgage"></li>
+        <li><img src="../assets/img/jhon_wick_4.jpg" alt="" class="imgage"></li>
+      </ul>
+    </div>
+  
+  </main>

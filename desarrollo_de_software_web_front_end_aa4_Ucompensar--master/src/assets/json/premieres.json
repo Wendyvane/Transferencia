@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Transformers: El despertar de las bestias",
+        "slug": "transformers-el-despertar-de-las-bestias",
+        "poster": "../assets/img/TRANSFORMERS.jpg"
+    },
+    {
+        "name": "Guardianes de la galaxia Vol. 3",
+        "slug": "guardianes-de-la-galaxia-vol-3",
+        "poster": "../assets/img/guardianes-de-la-galaxia-vol-3.jpg"
+    },
+    {
+        "name": "Rápidos y furiosos 10",
+        "slug": "rapidos-y-furiosos-10",
+        "poster": "../assets/img/rapidos-y-furiosos-x.jpg"
+    },
+    {
+        "name": "Flash",
+        "slug": "flash",
+        "poster": "../assets/img/flash.jpg"
+    },
+    {
+        "name": "Elemental",
+        "slug": "elemental",
+        "poster": "../assets/img/elemental.jpg"
+    },
+    {
+        "name": "Insidious: La puerta roja",
+        "slug": "insidious-la-puerta-roja",
+        "poster": "../assets/img/insidious-la-puerta-roja.jpg"
+    }
+]

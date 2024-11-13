@@ -1,0 +1,132 @@
+[
+    {
+        "peliculas": {
+            "avatar-el-camino-del-agua": {
+                "slug": "avatar-el-camino-del-agua",
+                "nombre": "Avatar el camino del agua",
+                "descripcion": "Más de una década después de los acontecimientos de 'Avatar', los Na'vi Jake Sully, Neytiri y sus hijos viven en paz en los bosques de Pandora hasta que regresan los hombres del cielo. Entonces comienzan los problemas que persiguen sin descanso a la familia Sully, que decide hacer un gran sacrificio para mantener a su pueblo a salvo y seguir ellos con vida.",
+                "poster": "../assets/img/avatar.jpg",
+                "trailer": "https://www.youtube.com/embed/96d3jsVWnOE",
+                "reparto": "Sam Worthington, Zoe Saldana, Sigourney Weaver, Kate Winslet, Stephen Lang, Cliff Curtis, Joel David Moore, Giovanni Ribisi, Edie Falco, CCH Pounder, Jemaine Clement, Brendan Cowell, Jamie Flatters, Britain Dalton, Trinity Jo-Li Bliss, Jack Champion, Bailey Bass, Filip Geljo, Duane Wichman-Evans, Dileep Rao, Matt Gerald, Keston John, Alicia Vela-Bailey, Sean Anthony Moran, Andrew Arrabito, Johnny Alexander",
+                "anio": "2022",
+                "duracion": "192 minutos",
+                "pais": "Estados unidos",
+                "direccion": "James Cameron",
+                "guion": "James Cameron, Rick Jaffa, Amanda Silver.Historia: James Cameron, Rick Jaffa, Amanda Silver, Josh Friedman, Shane Salerno",
+                "musica": "Simon Franglen",
+                "companias": "20th Century Studios, Lightstorm Entertainment, TSG Entertainment. Productor: James Cameron. Distribuidora: Walt Disney Pictures",
+                "genero": "Ciencia ficción. Aventuras. Fantástico. Acción | Familia. Extraterrestres. Secuela. 3-D",
+                "imagenes": [
+                    "../assets/img/avatar-1.jpg",
+                    "../assets/img/avatar-2.jpg",
+                    "../assets/img/avatar-3.jpg"
+                ]
+            },
+            "shazam": {
+                "slug": "shazam",
+                "nombre": "SHAZAM",
+                "descripcion": "Billy Batson y sus compañeros adoptados han recibido los poderes de los dioses pero aún están aprendiendo a compaginar sus vidas de adolescentes con sus alter-egos superheróicos. Pero cuando las Hijas de Atlas, un vengativo trío de antiguos dioses, llegan a la Tierra en busca de la magia que les robaron hace mucho tiempo, Billy -alias Shazam- y su familia se ven envueltos en una batalla por sus superpoderes, sus vidas y el destino de su mundo.",
+                "poster": "../assets/img/shazam.jpg",
+                "trailer": "https://www.youtube.com/embed/Q__dO3pEYDU",
+                "reparto": "Zachary Levi, Helen Mirren, Lucy Liu, Rachel Zegler, Jack Dylan Grazer, Asher Angel, Djimon Hounsou, Marta Milans, Cooper Andrews, Adam Brody, Grace Fulton, Meagan Good, D.J. Cotrona, Jovan Armand, Ian Chen, Faithe Herman, Diedrich Bader, Ross Butler, P.J. Byrne, Rizwan Manji, Derek Russo, David Lengel, Abby Glover, Bonnie Ryan, Otis Winston, Kelvin Hodge, Carter Williams, Chloe Camp, Chloe Childs, Michael Mario Good, Marc Demeter, José Mora Ramos, George Peroulas, Richie Acevedo, Stephen Branson, Jeff Bukowski, Zach Catanzareti, Jamel Chambers, Christopher Cocke, Alonzo Hester, Maurice T Johnson, Bradley Ryan Knispel, Colton Langan, Babatunde Oyewo, Sia Poorak, Kimi Price Queguiner, Patrick Reidy, Hana Soomro, Robert Tinsley, Sam Zheng",
+                "anio": "2023",
+                "duracion": "130 minutos",
+                "pais": "Estados unidos",
+                "direccion": "David F. Sandberg",
+                "guion": "Henry Gayden, Chris Morgan. Historia: David F. Sandberg",
+                "musica": "Christophe Beck",
+                "companias": "Warner Bros., New Line Cinema, DC Entertainment. Productor: David F. Sandberg. Distribuidora: Warner Bros., HBO Max.",
+                "genero": "Fantástico. Comedia. Acción. Aventuras | Superhéroes. Magia. Cómic. DC Comics. Secuela",
+                "imagenes": [
+                    "../assets/img/Shazam1.jpg",
+                    "../assets/img/Shazam2.jpg",
+                    "../assets/img/Shazam3.jpg"
+                ]
+            },
+            "cocaine-bear": {
+                "slug": "cocaine-bear",
+                "nombre": "Cocaine Bear",
+                "descripcion": "Un variopinto grupo formado por policías, delincuentes, turistas y adolescentes converge en un bosque de Georgia donde un oso negro de 500 libras se vuelve loco después de ingerir cocaína, que cayó del avión de un narcotraficante.",
+                "poster": "../assets/img/cocaine_bear.jpg",
+                "trailer": "https://www.youtube.com/embed/CvYGl5BESEI",
+                "reparto": "Keri Russell, Christian Convery, Ray Liotta, Margo Martindale, Alden Ehrenreich, Brooklynn Prince, Kristofer Hivju, O'Shea Jackson Jr., Jesse Tyler Ferguson, Kahyun Kim, Ayoola Smart, Isiah Whitlock Jr., Aaron Holliday, Hannah Hoekstra, Leo Hanna, Matthew Rhys, Shane Connellan.",
+                "anio": "2023",
+                "duracion": "95 minutos",
+                "pais": "Estados unidos",
+                "direccion": "Elizabeth Banks",
+                "guion": "Jimmy Warden. Historia: Elizabeth Banks",
+                "musica": "Mark Mothersbaugh",
+                "companias": "Brownstone Productions, Lord Miller, Universal Pictures. Productor: David F. Sandberg. Distribuidora: Universal Pictures.",
+                "genero": "Comedia. Thriller | Comedia negra. Basado en hechos reales. Años 80. Osos. Drogas",
+                "imagenes": [
+                    "../assets/img/cocaine_bear1.jpg",
+                    "../assets/img/cocaine_bear2.jpg",
+                    "../assets/img/cocaine_bear3.jpg"
+                ]
+            },
+            "jhon-wick-4": {
+                "slug": "jhon-wick-4",
+                "nombre": "Jhon Wick 4",
+                "descripcion": "John Wick, legendario asesino retirado, vuelve de nuevo a la acción impulsado por una incontrolable búsqueda de venganza. Al tener que luchar contra asesinos sedientos de sangre que le persiguen, John tendrá que llevar sus habilidades al límite si quiere salir esta vez con vida.",
+                "poster": "../assets/img/jhon_wick_4.jpg",
+                "trailer": "https://www.youtube.com/embed/L0anWmmd8TI",
+                "reparto": "Keanu Reeves, Donnie Yen, Bill Skarsgård, Ian McShane, Shamier Anderson, Rina Sawayama, Laurence Fishburne, Hiroyuki Sanada, Marko Zaror, Natalia Tena, Lance Reddick, Scott Adkins, Aimée Kwan",
+                "anio": "2023",
+                "duracion": "169 minutos",
+                "pais": "Estados unidos",
+                "direccion": "Chad Stahelski",
+                "guion": "Michael Finch, Shay Hatten. Personaje: Derek Kolstad",
+                "musica": "Tyler Bates, Joel J. Richard",
+                "companias": "Lionsgate, Thunder Road Pictures, Summit Entertainment, 87Eleven Entertainment. Distribuidora: Lionsgate",
+                "genero": "Acción. Thriller | Crimen. Secuela. Artes marciales",
+                "imagenes": [
+                    "../assets/img/jhon_wick_4_1.jpg",
+                    "../assets/img/jhon_wick_4_2.jpg",
+                    "../assets/img/jhon_wick_4_3.jpg"
+                ]
+            },
+            "minions-the-rise-of-gru": {
+                "slug": "minions-the-rise-of-gru",
+                "nombre": "Minions: The Rise of Gru",
+                "descripcion": "Son los años 70 y Gru crece en un barrio residencial, en pleno boom de los peinados cardados y los pantalones de campana. Como fan incondicional de un famoso supergrupo de villanos, 'Los salvajes 6', Gru idea un plan para demostrarles que es lo suficientemente malvado como para trabajar con ellos. Por suerte, cuenta con la ayuda de sus fieles seguidores, los Minions, siempre dispuestos a sembrar el caos por donde pasan. Juntos, Kevin, Stuart, Bob, y Otto -un nuevo Minion con aparato en los dientes y desesperado por sentirse aceptado- desplegarán su potencial para construir junto a Gru su primera guarida, experimentar con sus primeras armas y llevar a cabo sus primeras misiones.",
+                "poster": "../assets/img/minions.jpg",
+                "trailer": "https://www.youtube.com/embed/MO019NU9XUk",
+                "reparto": "Animación",
+                "anio": "2022",
+                "duracion": "86 minutos",
+                "pais": "Estados unidos",
+                "direccion": "Kyle Balda, Brad Ableson, Jonathan del Val",
+                "guion": "Matthew Fogel. Historia: Matthew Fogel, Brian Lynch",
+                "musica": "Heitor Pereira",
+                "companias": "Illumination Entertainment, Universal Pictures. Productor: Kyle Balda, Brad Ableson, Jonathan del Val. Distribuidora: Illumination Entertainment, Universal Pictures",
+                "genero": "Animación. Comedia. Aventuras | Años 70. Crimen. Cine familiar. Secuela. 3-D",
+                "imagenes": [
+                    "../assets/img/Minions1.jpg",
+                    "../assets/img/Minions2.jpg",
+                    "../assets/img/Minions3.jpg"
+                ]
+            },
+            "the-super-mario-bros": {
+                "slug": "the-super-mario-bros",
+                "nombre": "The Super Mario Bros.",
+                "descripcion": "Mientras trabajan en una avería subterránea, los fontaneros de Brooklyn, Mario y su hermano Luigi, viajan por una misteriosa tubería hasta un nuevo mundo mágico. Pero, cuando los hermanos se separan, Mario deberá emprender una épica misión para encontrar a Luigi. Con la ayuda del champiñón local Toad y unas cuantas nociones de combate de la guerrera líder del Reino Champiñón, la princesa Peach, Mario descubre todo el poder que alberga en su interior.",
+                "poster": "../assets/img/super_mario.jpg",
+                "trailer": "https://www.youtube.com/embed/8YQM6VlfiqM",
+                "reparto": "Animación, Voz: Chris Pratt, Anya Taylor-Joy, Charlie Day, Jack Black, Keegan-Michael Key, Seth Rogen, Fred Armisen, Kevin Michael Richardson, Sebastian Maniscalco, Charles Martinet",
+                "anio": "2023",
+                "duracion": "92 minutos",
+                "pais": "Estados unidos",
+                "direccion": "Aaron Horvath, Michael Jelenic",
+                "guion": "Matthew Fogel. Historia: Matthew Fogel.",
+                "musica": "Kōji Kondō, Brian Tyler",
+                "companias": "Coproducción Estados Unidos-Japón; Illumination Entertainment, Nintendo, Universal Pictures. Productor: Michael Jelenic. Distribuidora: Universal Pictures",
+                "genero": "Animación. Aventuras. Infantil. Fantástico. Comedia | Cine familiar. Videojuego",
+                "imagenes": [
+                    "../assets/img/Super_Mario1.jpg",
+                    "../assets/img/Super_Mario2.jpg",
+                    "../assets/img/Super_Mario3.jpg"
+                ]
+            }
+        }
+    }
+]

@@ -1,0 +1,305 @@
+/* You can add global styles to this file, and also import other style files */
+// Variables
+$color-primario: #2fb4cc;
+$color-secundario: #1f53c5;
+$color-terceario: #22b0c9;
+$dark: black;
+$font: 'Open Sans', sans-serif;
+$margin-bottom: 1.25em;
+$image-background-principal: "./assets/img/cinema-strip-gfb2b92aab_1280.jpg";
+$bg-size: "background-size";
+
+// Anidación de selectores
+header {
+    .contenedor {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+.pelicula-principal {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #ffffff57;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(#{$image-background-principal});
+    background-position: center;
+    #{$bg-size}: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: flex-end;
+
+    .contenedor {
+        margin: 0 auto;
+        margin-bottom: 6.25em;
+    }
+
+    .titulo {
+        font-weight: 600;
+        font-size: 3.12em;
+        margin-bottom: 0.4em;
+    }
+
+    .descripcion {
+        font-weight: normal;
+        font-size: 1em;
+        line-height: 1.75em;
+        max-width: 50%;
+        margin-bottom: $margin-bottom;
+    }
+
+    .boton {
+        background: rgba(0, 0, 0, 0.5);
+        border: none;
+        border-radius: 0.31em;
+        padding: 0.93em 1.87em;
+        color: #ffffff49;
+        margin-right: $margin-bottom;
+        cursor: pointer;
+        transition: .3s ease all;
+        font-size: 1.12em;
+    }
+
+    .boton:hover {
+        background: #ffffff45;
+        color: $dark;
+    }
+
+    .boton i {
+        margin-right: $margin-bottom;
+    }
+}
+
+header {
+    padding: 20px 0;
+
+    nav a {
+        color: $dark;
+        text-decoration: none;
+        margin-right: 20px;
+        font: optional 20px;    
+    }
+
+    nav a:hover, header nav a.activo {
+        color: $dark;    
+    }
+}
+
+// Interpolación
+$image-background: "./assets/img/popcorn-gc7953216c_1280.jpg";
+$font-size-60p: "60px";
+
+body {
+    background: url(#{$image-background});
+    #{$bg-size}: cover;
+    font-family: $font;
+    background-attachment: fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.logotipo {
+    font-size: #{$font-size-60p};
+    font-family: $font;
+}
+
+.imgage {
+    width: 400px !important;
+    height: 533px !important;
+    margin-left: 5px;
+}
+
+// Mixin
+@mixin witdh-30($nombre_clase, $width){
+    .#{$nombre_clase} {
+        width: #{$width} !important;
+    }
+}
+
+@include witdh-30('image-carousel', '30%');
+
+@include witdh-30('trailer-estrenos', '30%');
+
+/* ---- ----- ----- Pelicula Principal ----- ----- ----- */
+
+.titulopopular {
+    color: rgb(7, 6, 5);
+    font-size: #{$font-size-60p};
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: $font;
+
+}
+
+.contenedor {
+    width: 80%;
+    margin: 100px;
+    padding: #{$font-size-60p} 0;
+    height: 20%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: auto;
+}
+
+
+.img-thumbnail {
+    width: 170px !important;
+    height: 207px !important;
+}
+
+/* ---- ----- ----- RESPONSIVE ----- ----- ----- */
+@media screen and (max-width: 800px) {
+    header .logotipo {
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    header .contenedor {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pelicula-principal {
+        font-size: 14px;
+    }
+
+    .pelicula-principal .descripcion {
+        max-width: 100%;
+    }
+
+    .sm-padding {
+        margin-top: 3.5rem !important;
+    }
+
+    .sm-size {
+        width: 75%;
+    }
+
+    .trailer {
+        max-width: 300px;
+    }
+
+    .trailer-estrenos {
+        width: auto;
+    }
+
+}
+
+/* Formulario */
+.form-register {
+    position: static;
+    width: 80%;
+    max-width: 30000px;
+    background: #eec0c0ba;
+    padding: 10px;
+    margin: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 7px 13px 37px $dark;
+    cursor: default;
+
+    h4 {
+        line-height: 2.8;
+        color: rgb(27, 24, 24);
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+}
+
+.controls {
+    width: 100%;
+    background: #c4d6e850;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid $dark;
+    font-family: $font;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.715);
+}
+
+.form-register a:hover {
+    background: $color-terceario;
+    color: white;
+}
+
+.form-register a {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: $color-primario;
+    border: 1px solid $color-primario;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    margin-bottom: 5px;
+    background-color: $color-secundario;
+}
+
+
+/*Slider*/
+
+.slider-frame {
+    width: 80%;
+    height: auto;
+    margin: 5%;
+    overflow: auto;
+
+    ul {
+        display: flex;
+        padding: 0;
+        width: 400%;
+    
+        animation: slide 20s infinite alternate ease-in-out;
+    }
+
+    li {
+        width: 80%;
+        list-style: none;
+    }
+
+    img {
+        width: 80%;
+    }
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 10%;
+    }
+
+    20% {
+        margin-left: 20%;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}

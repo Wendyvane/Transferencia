@@ -1,0 +1,276 @@
+[
+    {
+        "peliculas": {
+            "transformers-el-despertar-de-las-bestias": {
+                "slug": "transformers-el-despertar-de-las-bestias",                             
+                "poster": "../assets/img/avatar.jpg",
+                "trailer": "https://www.youtube.com/embed/lLVmLJdRZJQ",
+                "reparto": [
+                    {
+                        "image": "../assets/img/transformers_reparto_1.jpg",
+                        "name": "Dominique Fishback"
+                    },
+                    {
+                        "image": "../assets/img/transformers_reparto_2.jpg",
+                        "name": "Anthony Ramos"
+                    },
+                    {
+                        "image": "../assets/img/transformers_reparto_3.jpg",
+                        "name": "Ron Perlman"
+                    },
+                    {
+                        "image": "../assets/img/transformers_reparto_4.jpg",
+                        "name": "Colman Domingo"
+                    },
+                    {
+                        "image": "../assets/img/transformers_reparto_5.jpg",
+                        "name": "Dean Scott Vazquez"
+                    },
+                    {
+                        "image": "../assets/img/transformers_reparto_6.jpg",
+                        "name": "Michelle Yeoh"
+                    }
+                ],
+                "nombre": "Transformers: El despertar de las bestias",   
+                "fechaEstreno": "9 de junio de 2023",
+                "direccion": "Steven Caple Jr.",
+                "guion": "Joby Harold, Darnell Metayer, Josh Peters, Erich Hoeber, Jon Hoeber. Historia: Joby Harold",
+                "musica": "Jongnic Bontemps",                
+                "fotografia": "Enrique Chediak",
+                "companias": "Entertainment One, Hasbro, New Republic Pictures, Paramount Pictures, Skydance Productions. Distribuidora: Paramount Pictures",
+                "genero": "Ciencia ficción. Aventuras. Fantástico. Acción | Familia. Extraterrestres. Secuela. 3-D",
+                "descripcion": "La batalla en la Tierra ya no es solo entre Autobots y Decepticons... Maximals, Predacons y Terrorcons se unen a Transformers: Rise of the Beasts.",
+                "imagenes": [
+                    "../assets/img/Transformers1.jpg",
+                    "../assets/img/Transformers2.jpg",
+                    "../assets/img/Transformers3.jpg"
+                ]
+            },
+            "guardianes-de-la-galaxia-vol-3": {
+                "slug": "guardianes-de-la-galaxia-vol-3",                             
+                "poster": "../assets/img/guardianes-de-la-galaxia-vol-3.jpg",
+                "trailer": "https://www.youtube.com/embed/UZreWt7sFmw",
+                "reparto": [
+                    {
+                        "image": "../assets/img/guardianes-de-la-galaxia-vol-3_reparto_1.jpg",
+                        "name": "Chris Pratt"
+                    },
+                    {
+                        "image": "../assets/img/guardianes-de-la-galaxia-vol-3_reparto_2.jpg",
+                        "name": "Zoe Saldana"
+                    },
+                    {
+                        "image": "../assets/img/guardianes-de-la-galaxia-vol-3_reparto_3.jpg",
+                        "name": "Dave Bautista"
+                    },
+                    {
+                        "image": "../assets/img/guardianes-de-la-galaxia-vol-3_reparto_4.jpg",
+                        "name": "Vin Diesel"
+                    },
+                    {
+                        "image": "../assets/img/guardianes-de-la-galaxia-vol-3_reparto_5.jpg",
+                        "name": "Bradley Cooper"
+                    },
+                    {
+                        "image": "../assets/img/guardianes-de-la-galaxia-vol-3_reparto_6.jpg",
+                        "name": "Karen Gillan"
+                    }
+                ],
+                "nombre": "Guardianes de la galaxia Vol. 3",   
+                "fechaEstreno": "4 de mayo de 2023",
+                "direccion": "James Gunn",
+                "guion": "James Gunn. Cómic: Dan Abnett, Andy Lanning",
+                "musica": "John Murphy",                
+                "fotografia": "Henry Braham",
+                "companias": "Marvel Studios, Marvel Entertainment. Distribuidora: Walt Disney Pictures",
+                "genero": "Ciencia ficción. Aventuras. Acción. Comedia | Superhéroes. Cómic. Marvel Comics. MCU. Secuela",
+                "descripcion": "Sigue a Star-Lord, todavía recuperándose de la pérdida de Gamora, que debe reunir a su equipo para defender el universo junto con la protección de uno de los suyos. Una misión que, si no se completa, podría llevar al final de los Guardianes tal como los conocemos.",
+                "imagenes": [
+                    "../assets/img/guardianes-de-la-galaxia-vol-3_1.jpg",
+                    "../assets/img/guardianes-de-la-galaxia-vol-3_2.jpg",
+                    "../assets/img/guardianes-de-la-galaxia-vol-3_3.jpg"
+                ]
+            },
+            "rapidos-y-furiosos-10": {
+                "slug": "rapidos-y-furiosos-10",                             
+                "poster": "../assets/img/rapidos-y-furiosos-x.jpg",
+                "trailer": "https://www.youtube.com/embed/sdNv9aUf900",
+                "reparto": [
+                    {
+                        "image": "../assets/img/rapidos-y-furiosos-x_reparto_1.jpg",
+                        "name": "Vin Diesel"
+                    },
+                    {
+                        "image": "../assets/img/rapidos-y-furiosos-x_reparto_2.jpg",
+                        "name": "Jordana Brewster"
+                    },
+                    {
+                        "image": "../assets/img/rapidos-y-furiosos-x_reparto_3.jpg",
+                        "name": "Tyrese Gibson"
+                    },
+                    {
+                        "image": "../assets/img/rapidos-y-furiosos-x_reparto_4.jpg",
+                        "name": "Michelle Rodriguez"
+                    },
+                    {
+                        "image": "../assets/img/rapidos-y-furiosos-x_reparto_5.jpg",
+                        "name": "Ludacris"
+                    },
+                    {
+                        "image": "../assets/img/rapidos-y-furiosos-x_reparto_6.jpg",
+                        "name": "Jason Momoa"
+                    }
+                ],
+                "nombre": "Rápidos y furiosos 10",   
+                "fechaEstreno": "19 de mayo de 2023",
+                "direccion": "Louis Leterrier",
+                "guion": "Justin Lin, Dan Mazeau. Personajes: Gary Scott Thompson",
+                "musica": "Brian Tyler",                
+                "fotografia": "Stephen F. Windon",
+                "companias": "Original Film, One Race Films. Productor: Justin Lin. Distribuidora: Universal Pictures",
+                "genero": "Acción | Coches/Automovilismo. Secuela",
+                "descripcion": "Dom Toretto y su familia se convierten en el objetivo del vengativo hijo del capo de las drogas Hernán Reyes.",
+                "imagenes": [
+                    "../assets/img/rapidos-y-furiosos-x_1.jpg",
+                    "../assets/img/rapidos-y-furiosos-x_2.jpg",
+                    "../assets/img/rapidos-y-furiosos-x_3.jpg"
+                ]
+            },
+            "flash": {
+                "slug": "flash",                             
+                "poster": "../assets/img/flash.jpg",
+                "trailer": "https://www.youtube.com/embed/-FsCwGj9aDw",
+                "reparto": [
+                    {
+                        "image": "../assets/img/flash_reparto_1.jpg",
+                        "name": "Ben Affleck"
+                    },
+                    {
+                        "image": "../assets/img/flash_reparto_2.jpg",
+                        "name": "Michael Shannon"
+                    },
+                    {
+                        "image": "../assets/img/flash_reparto_3.jpg",
+                        "name": "Michael Keaton"
+                    },
+                    {
+                        "image": "../assets/img/flash_reparto_4.jpg",
+                        "name": "Temuera Morrison"
+                    },
+                    {
+                        "image": "../assets/img/flash_reparto_5.jpg",
+                        "name": "Ezra Miller"
+                    },
+                    {
+                        "image": "../assets/img/flash_reparto_6.jpg",
+                        "name": "Sasha Calle"
+                    }
+                ],
+                "nombre": "Flash",   
+                "fechaEstreno": "16 de junio de 2023",
+                "direccion": "Andy Muschietti",
+                "guion": "Christina Hodson. Personajes: Gardner Fox, Harry Lampert",
+                "musica": "Benjamin Wallfisch",                
+                "fotografia": "Henry Braham",
+                "companias": "DC Comics, DC Entertainment, Warner Bros.. Distribuidora: Warner Bros.",
+                "genero": "Acción. Aventuras. Drama. Fantástico. Ciencia ficción | Superhéroes. Cómic. DC Comics",
+                "descripcion": "Los mundos chocan en Flash cuando Barry utiliza sus superpoderes para viajar en el tiempo y cambiar los acontecimientos del pasado. Barry intenta salvar a su familia, pero sin saberlo altera el futuro y queda atrapado en una realidad en la que el general Zod ha regresado y amenaza con la aniquilación, pero en la que no hay Superhéroes a los que recurrir. A menos que Barry pueda persuadir a un Batman muy diferente para que salga de su retiro y rescate a un kryptoniano encarcelado... aunque no sea el que está buscando. En última instancia, para salvar el mundo en el que se encuentra y regresar al futuro que conoce, la única esperanza de Barry es luchar por seguir vivo. Pero ¿este último sacrificio será suficiente para reiniciar el universo?",
+                "imagenes": [
+                    "../assets/img/flash_1.jpg",
+                    "../assets/img/flash_2.jpg",
+                    "../assets/img/flash_3.jpg"
+                ]
+            },
+            "elemental": {
+                "slug": "elemental",                             
+                "poster": "../assets/img/elemental.jpg",
+                "trailer": "https://www.youtube.com/embed/G8ePgoRcSyI",
+                "reparto": [
+                    {
+                        "image": "../assets/img/elemental_reparto_1.jpg",
+                        "name": "Leah Lewis"
+                    },
+                    {
+                        "image": "../assets/img/elemental_reparto_2.jpg",
+                        "name": "Mamoudou Athie"
+                    },
+                    {
+                        "image": "../assets/img/elemental_reparto_3.jpg",
+                        "name": "Ronnie Del Carmen"
+                    },
+                    {
+                        "image": "../assets/img/elemental_reparto_4.jpg",
+                        "name": "Shila Ommi"
+                    },
+                    {
+                        "image": "../assets/img/elemental_reparto_5.jpg",
+                        "name": "Wendi McLendon-Covey"
+                    },
+                    {
+                        "image": "../assets/img/elemental_reparto_6.jpg",
+                        "name": "Catherine O'Hara"
+                    }
+                ],
+                "nombre": "Elemental",   
+                "fechaEstreno": "16 de junio de 2023",
+                "direccion": "Peter Sohn",
+                "guion": "John Hoberg, Kat Likkel, Brenda Hsueh. Historia: Peter Sohn, John Hoberg, Kat Likkel, Brenda Hsueh",
+                "musica": "Benjamin Wallfisch",                
+                "fotografia": "Animación",
+                "companias": "Pixar Animation Studios, Walt Disney Pictures. Distribuidora: Walt Disney Pictures",
+                "genero": "Animación. Fantástico. Aventuras | Pixar",
+                "descripcion": "En una ciudad en la que conviven el fuego, el agua, la tierra y el aire, una joven llena de fuego y un tipo que fluye descubrirán lo mucho que tienen en común.",
+                "imagenes": [
+                    "../assets/img/elemental_1.jpg",
+                    "../assets/img/elemental_2.jpg",
+                    "../assets/img/elemental_3.jpg"
+                ]
+            },
+            "insidious-la-puerta-roja": {
+                "slug": "insidious-la-puerta-roja",                             
+                "poster": "../assets/img/insidious-la-puerta-roja.jpg",
+                "trailer": "https://www.youtube.com/embed/zSVK3WMPc3s",
+                "reparto": [
+                    {
+                        "image": "../assets/img/insidious-la-puerta-roja_reparto_1.jpg",
+                        "name": "Ty Simpkins"
+                    },
+                    {
+                        "image": "../assets/img/insidious-la-puerta-roja_reparto_2.jpg",
+                        "name": "Patrick Wilson"
+                    },
+                    {
+                        "image": "../assets/img/insidious-la-puerta-roja_reparto_3.jpg",
+                        "name": "Rose Byrne"
+                    },
+                    {
+                        "image": "../assets/img/insidious-la-puerta-roja_reparto_4.jpg",
+                        "name": "Hiam Abbass"
+                    },
+                    {
+                        "image": "../assets/img/insidious-la-puerta-roja_reparto_5.jpg",
+                        "name": "Lin Shaye"
+                    },
+                    {
+                        "image": "../assets/img/insidious-la-puerta-roja_reparto_6.jpg",
+                        "name": "Andrew Astor"
+                    }
+                ],
+                "nombre": "Insidious: La puerta roja",   
+                "fechaEstreno": "7 de julio de 2023",
+                "direccion": "Patrick Wilson",
+                "guion": "Scott Teems. Historia: Leigh Whannell",
+                "musica": "Joseph Bishara",                
+                "fotografia": "Abraham Chan",
+                "companias": "Blumhouse Productions. Distribuidora: Sony Pictures Entertainment (SPE)",
+                "genero": "Terror | Secuela. Sobrenatural",
+                "descripcion": "El Capítulo 5 continuará con la familia Lambert diez años después de los eventos del Capítulo 2, cuando su hijo Dalton comience la universidad.",
+                "imagenes": [
+                    "../assets/img/insidious-la-puerta-roja_1.jpg",
+                    "../assets/img/insidious-la-puerta-roja_2.jpg",
+                    "../assets/img/insidious-la-puerta-roja_3.jpg"
+                ]
+            }
+        }
+    }
+]

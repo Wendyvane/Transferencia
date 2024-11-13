@@ -1,0 +1,26 @@
+[
+    {
+        "nombre": "Danny Stewart Garzón Rico",
+        "correo": "dsgarzon@ucompensar.edu.co",
+        "carrera": "Ingeniería de sistemas",
+        "semestre": "XI"
+    },
+    {
+        "nombre": "Neil Tellez Martinez",
+        "correo": "ntellezm@ucompensar.edu.co",
+        "carrera": "Ingeniería de Software",
+        "semestre": "V"
+    },
+    {
+        "nombre": "Andrés Mauricio Tibaquira Rodriguez",
+        "correo": "amtibaquira@ucompensar.edu.co",
+        "carrera": "Ingeniería de sistemas",
+        "semestre": "XI"
+    },
+    {
+        "nombre": "Josi Estiven Torres Amado",
+        "correo": "jestiventorres@ucompensar.edu.co",
+        "carrera": "Ingeniería de Software",
+        "semestre": "VII"
+    }
+]

@@ -1,0 +1,79 @@
+<main>
+    <div class="container py-4">
+
+        <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">{{ movieInfo.nombre }}</h1>
+
+                <div class="row">
+                    <div class="col-9">
+                        <p class="fs-4 text-justify">{{ movieInfo.descripcion }}</p>                    
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-12">
+                        <img src="{{ movieInfo.poster }}" width="200px" height="267px" alt="" class="img-fluid rounded-3 poster">
+                    </div>
+                </div>
+            </div>                
+        </div>
+
+        <div class="row align-items-md-stretch">
+            <div class="col-md-6 mb-2">
+                <div class="h-100 p-5 text-bg-dark rounded-3">
+                    <h2>Trailer</h2>
+                    <iframe width="450" height="272" [src]="movieInfo.trailer | safe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="trailer"></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 mb-2">
+                <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+                    <h2>Reparto</h2>
+                    <p>{{ movieInfo.reparto }}</p>                        
+                </div>
+            </div>
+            <div class="col-md-6 mb-2">
+                <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-transparent">Año: {{ movieInfo.anio }}</li>
+                        <li class="list-group-item bg-transparent">Duración: {{ movieInfo.duracion }}</li>
+                        <li class="list-group-item bg-transparent">País: {{ movieInfo.pais }}</li>
+                        <li class="list-group-item bg-transparent">Dirección: {{ movieInfo.direccion }}</li>
+                        <li class="list-group-item bg-transparent">Guion: {{ movieInfo.guion }}</li>                            
+                      </ul>
+                </div>
+            </div>
+            <div class="col-md-6 mb-2">
+                <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-transparent">Música: {{ movieInfo.musica }}</li>
+                        <li class="list-group-item bg-transparent">Compañías: {{ movieInfo.companias }}</li>
+                        <li class="list-group-item bg-transparent">Género: {{ movieInfo.genero }}</li>
+                      </ul>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+                    <h2>Imagenes</h2>
+                    <div class="row">
+
+
+
+
+                        <div class="col-md-4 col-sm-12" *ngFor="let imagen of movieInfo.imagenes">
+                            <img src="{{ imagen }}" class="img-fluid img-thumbnail " alt="">
+                        </div>
+
+                    </div>                       
+                </div>
+            </div>
+        </div>
+
+        <section class="form-register">
+            <h4>Comentarios</h4>
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">               
+            <textarea class="controls" id="story" name="story"rows="5" cols="33"></textarea>
+            <a href="#">Publicar</a>
+        </section>
+
+    </div>
+
+</main>

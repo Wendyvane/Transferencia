@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Avatar el camino del agua",
+        "slug": "avatar-el-camino-del-agua",
+        "poster": "../assets/img/avatar.jpg"
+    },
+    {
+        "name": "SHAZAM",
+        "slug": "shazam",
+        "poster": "../assets/img/shazam.jpg"
+    },
+    {
+        "name": "Cocaine Bear",
+        "slug": "cocaine-bear",
+        "poster": "../assets/img/cocaine_bear.jpg"
+    },
+    {
+        "name": "Jhon Wick 4",
+        "slug": "jhon-wick-4",
+        "poster": "../assets/img/jhon_wick_4.jpg"
+    },
+    {
+        "name": "Minions: The Rise of Gru",
+        "slug": "minions-the-rise-of-gru",
+        "poster": "../assets/img/minions.jpg"
+    },
+    {
+        "name": "The Super Mario Bros.",
+        "slug": "the-super-mario-bros",
+        "poster": "../assets/img/super_mario.jpg"
+    }
+]

@@ -1,0 +1,32 @@
+<main>
+    <div class="container py-4 bg-body-tertiary">
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            
+            <img src="https://ucompensar.edu.co/wp-content/uploads/2021/04/main-logo.svg" class="bi mt-4 mb-4" width="475" height="69">            
+
+            <h1 class="display-4 fw-normal">Contacto</h1>
+            <p class="fs-5 text-body-secondary">
+                Puedes contactar con nosotros para saber tus opiniones, dejamos nuestros datos
+            </p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 mb-3 text-center">
+
+            <div class="col" *ngFor="let contact of contacts">                
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">{{ contact.nombre }}</h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>{{ contact.correo }}</li>
+                            <li>{{ contact.carrera }}</li>
+                            <li>{{ contact.semestre }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>                        
+
+        </div>
+
+    </div>
+</main>

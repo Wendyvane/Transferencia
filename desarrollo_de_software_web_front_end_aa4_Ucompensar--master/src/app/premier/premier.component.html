@@ -1,0 +1,129 @@
+<main>
+
+    <div id="myCarousel" class="carousel carousel-dark slide sm-padding" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+
+            <div class="carousel-item active text-center" *ngFor="let imagen of premierInfo.imagenes">
+                <img class="image-carousel sm-size" src="{{ imagen }}" alt="">
+                <div class="container">
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <div class="container mt-4 text-center alert alert-light">
+        <h2>{{ premierInfo.nombre }}</h2>
+        
+        <hr class="featurette-divider">
+
+        <h2>Reparto</h2>
+        <div class="row">
+
+            <div class="col-lg-4" *ngFor="let reparto of premierInfo.reparto">
+                <img src="{{ reparto.image }}" alt="" class="img-thumbnail rounded-circle">                                              
+                <h2 class="fw-normal">{{ reparto.name }}</h2>
+            </div>
+
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row">
+            <h2>Ficha</h2>
+            <div class="align-items-center justify-content-center">
+                <div class="list-group">
+                    <div class="w-100 justify-content-between">
+                        <div>
+                            <h6 class="mb-0">Título original</h6>
+                            <p class="mb-0 opacity-75">{{ premierInfo.nombre }}</p>
+                        </div>
+                    </div>
+                    <div class="w-100 justify-content-between mt-2">
+                        <div>
+                            <h6 class="mb-0">Fecha de estreno</h6>
+                            <p class="mb-0 opacity-75">{{ premierInfo.fechaEstreno }}</p>
+                        </div>
+                    </div>
+                    <div class="w-100 justify-content-between mt-2">
+                        <div>
+                            <h6 class="mb-0">Dirección</h6>
+                            <p class="mb-0 opacity-75">{{ premierInfo.direccion }}</p>
+                        </div>
+                    </div>
+                    <div class="w-100 justify-content-between mt-2">
+                        <div>
+                            <h6 class="mb-0">Guion</h6>
+                            <p class="mb-0 opacity-75">{{ premierInfo.guion }}</p>
+                        </div>
+                    </div>
+                    <div class="w-100 justify-content-between mt-2">
+                        <div>
+                            <h6 class="mb-0">Música</h6>
+                            <p class="mb-0 opacity-75">{{ premierInfo.musica }}</p>
+                        </div>
+                    </div>
+                    <div class="w-100 justify-content-between mt-2">
+                        <div>
+                            <h6 class="mb-0">Fotografía</h6>
+                            <p class="mb-0 opacity-75">{{ premierInfo.fotografia }}</p>
+                        </div>
+                    </div>
+                    <div class="w-100 justify-content-between mt-2">
+                        <div>
+                            <h6 class="mb-0">Compañías</h6>
+                            <p class="mb-0 opacity-75">{{ premierInfo.companias }}</p>
+                        </div>
+                    </div>
+                    <div class="w-100 justify-content-between mt-2">
+                        <div>
+                            <h6 class="mb-0">Género</h6>
+                            <p class="mb-0 opacity-75">{{ premierInfo.genero }}</p>
+                        </div>
+                    </div>
+                    <div class="w-100 justify-content-between mt-2">
+                        <div>
+                            <h6 class="mb-0">Sinopsis</h6>
+                            <p class="mb-0 opacity-75">{{ premierInfo.descripcion }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <h2>Trailer</h2>
+
+            <iframe width="450" height="272" [src]="premierInfo.trailer | safe" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen class="trailer-estrenos">
+            </iframe>
+            
+        </div>
+
+    </div>
+
+    <section class="form-register">
+        <h4>Comentarios</h4>
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">               
+        <textarea class="controls" id="story" name="story"rows="5" cols="33"></textarea>
+        <a href="#">Publicar</a>
+    </section>
+
+</main>
